@@ -1,0 +1,128 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-size: 20px;
+}
+
+header {
+    background-color: #110e0b;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 5px;
+    /* color: #f0f0f0; */
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    /* color: #f0f0f0; */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+   
+}
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.home {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.home .content {
+    background-color: rgb(8 52 47 / 50%);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+
+.about {
+    background-color: #f8f8f8;
+}
+
+.skills {
+    background-color: #e8e8e8;
+}
+
+.contact {
+    background-color: #f8f8f8;
+}
+
+
+footer {
+    background-color: #5bc1f1;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.scroll-to-top-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #65caec;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profile-photo img {
+    /* max-width: 25%; */
+    width: 230px;
+    height: 230px;
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+}
+
+
+
+ .content{
+    text-align: center;
+    list-style-type: none;
+    color: #110e0b;
+    
+}
+
+.content ul{
+    list-style-type: none;
+}
+
+#projects{
+    margin-top: 100px;
+}
+
+#contact a{
+    margin: 0px 10px;
+}
+
+#skills ul{
+   margin-right: 35px;
+}
+
